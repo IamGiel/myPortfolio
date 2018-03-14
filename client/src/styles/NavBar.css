@@ -1,0 +1,50 @@
+body {
+  background: blue;
+  background: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(rgba(13, 52, 58, 1)),
+    to(#000000)
+  );
+  background: -moz-linear-gradient(
+    top,
+    rgba(13, 52, 58, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+
+  overflow: hidden;
+}
+
+.drop {
+  background: -webkit-gradient(
+    linear,
+    9% 0%,
+    0% 100%,
+    from(rgba(13, 52, 58, 1)),
+    to(rgba(255, 255, 255, 0.6))
+  );
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0.6) 100%);
+  width: 2px;
+  height: 19px;
+  position: absolute;
+  left: 0, 1600;
+  bottom: 200px;
+  -webkit-animation: fall 0.63s linear infinite;
+  -moz-animation: fall 0.63s linear infinite;
+}
+
+a.btn {
+  margin: 3px;
+}
+
+@-webkit-keyframes fall {
+  to {
+    margin-top: 900px;
+  }
+}
+@-moz-keyframes fall {
+  to {
+    margin-top: 900px;
+  }
+}

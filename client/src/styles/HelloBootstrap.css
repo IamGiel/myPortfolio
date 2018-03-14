@@ -1,0 +1,8 @@
+.jumbotron {
+  background-color: rgba(158, 175, 244, 0.365);
+  text-align: center;
+  color:rgb(131, 180, 210);
+}
+h1, p {
+  color:white;
+}
