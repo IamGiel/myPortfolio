@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "/client/build")));
 // Add routes, both API and view
 
 app.get("/", function(req, res) {
-  res.send(path.join(__dirname, "/client/build"));
+  res.send("/client/build/index.html");
 });
 
 // Set up promises with mongoose
