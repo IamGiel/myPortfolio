@@ -14,18 +14,18 @@ app.use(express.static(path.join(__dirname, "/client/build")));
 // Add routes, both API and view
 
 app.get("/", function(req, res) {
-  res.send(path.join(__dirname, "/client/build/index.html"));
+  res.send("/client/build/index.html");
 });
 
 // Set up promises with mongoose
 mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist",
-  {
-    // useMongoClient: true
-  }
-);
+// mongoose.connect(
+//   process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist",
+//   {
+//     // useMongoClient: true
+//   }
+// );
 
 // Start the API server
 app.listen(PORT, function() {
