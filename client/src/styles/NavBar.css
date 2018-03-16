@@ -1,5 +1,5 @@
 body {
-  background: blue;
+  background: rgba(100, 100, 155, 0.39);
   background: -webkit-gradient(
     linear,
     0% 0%,
@@ -13,7 +13,7 @@ body {
     rgba(0, 0, 0, 1) 100%
   );
 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .drop {
@@ -30,8 +30,8 @@ body {
   position: absolute;
   left: 0, 1600;
   bottom: 200px;
-  -webkit-animation: fall 0.63s linear infinite;
-  -moz-animation: fall 0.63s linear infinite;
+  -webkit-animation: fall 2.33s linear infinite;
+  -moz-animation: fall 2.33s linear infinite;
 }
 
 a.btn {

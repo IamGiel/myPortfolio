@@ -17,18 +17,29 @@ const HelloBootstrap = () => (
         <h1>
           <Icon spin name="spinner" />Hello, My name is {name}!
         </h1>
-        <p>This is my React Fueled Website</p>
+        <p>I love it when it rains...</p>
         <p>
-          <a className="btn btn-primary btn-lg">
+          <a
+            href="https://www.linkedin.com/in/gel-d-b8314556/"
+            className="btn btn-primary btn-lg"
+          >
             <Icon name="linkedin" />
             {_}Linkdin
           </a>
-          <a className="btn btn-primary btn-lg">
+          <a
+            href="https://github.com/IamGiel"
+            className="btn btn-primary btn-lg"
+          >
             <Icon name="github" />
             {_}Github
           </a>
-          <a className="btn btn-primary btn-lg">About.Me</a>
-          <a className="btn btn-primary btn-lg">
+          <a href="https://about.me/gel.d" className="btn btn-primary btn-lg">
+            About.Me
+          </a>
+          <a
+            href="https://stackoverflow.com/users/8400475/gel-sisaed"
+            className="btn btn-primary btn-lg"
+          >
             <Icon name="stack-overflow" />
             {_}Stack-Overflow
           </a>
