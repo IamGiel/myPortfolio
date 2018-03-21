@@ -1,14 +1,13 @@
 import React from "react";
-import { Icon } from 'react-fa'
+import { Icon } from "react-fa";
 import "../styles/HelloBootstrap.css";
 import { TweenMax } from "gsap";
 const _ = " ";
 
-
 const name = "Gel";
 TweenMax.to(name, 6, {
   backgroundColor: "yellow"
-})
+});
 
 const HelloBootstrap = () => (
   <div>
