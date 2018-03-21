@@ -33,9 +33,13 @@ const HelloBootstrap = () => (
             <Icon name="github" />
             {_}Github
           </a>
-          <a href="https://about.me/gel.d" className="btn btn-primary btn-lg">
-            About.Me
+          <a
+            href="https://geltwo.herokuapp.com/"
+            className="btn btn-primary btn-lg"
+          >
+            Explore.Me
           </a>
+
           <a
             href="https://stackoverflow.com/users/8400475/gel-sisaed"
             className="btn btn-primary btn-lg"
